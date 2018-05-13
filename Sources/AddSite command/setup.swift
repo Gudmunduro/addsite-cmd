@@ -85,12 +85,12 @@ class Setup {
 
     func gitCloneSite()
     {
-        
+        // Not ready
     }
 
     func finalSetup()
     {
-
+        bash("chmod", ["770", documentRoot])
     }
 
 
