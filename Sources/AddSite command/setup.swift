@@ -17,12 +17,12 @@ class Setup {
     init?()
     {
         print("Domain: ")
-        guard let domain = readLine(), !domain.isNullOrEmpty else {
+        guard let domain = readLine(), !domain.isEmpty else {
             print("input cannot be empty")
             return nil
         }
         print("Subdomain: ")
-        guard let subDomain = readLine(), !subDomain.isNullOrEmpty else {
+        guard let subDomain = readLine(), !subDomain.isEmpty else {
             print("input cannot be empty")
             return nil
         }
@@ -35,12 +35,12 @@ class Setup {
         }
         // cloneGit = YNQuestion(text: "Clone from git? ")
         print("Group (Fisedush, Gudmundur or Helgi): ")
-        guard let group = readLine(), !group.isNullOrEmpty else {
+        guard let group = readLine(), !group.isEmpty else {
             print("input cannot be empty")
             return nil
         }
         print("Dir name: ")
-        guard let dirName = readLine(), !group.isNullOrEmpty else {
+        guard let dirName = readLine(), !group.isEmpty else {
             print("input cannot be empty")
             return nil
         }
